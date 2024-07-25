@@ -19,8 +19,8 @@ import org.openqa.selenium.WebDriver;
 							"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",   
 							"pretty", //"html:target/cucumber-html-report", "html:target/site/cucumber-reports",
 							   //"com.epam.reportportal.cucumber.ScenarioReporter",
-							   "json:target/cucumber.json",
-							   "junit:target/cucumber.xml",
+							   "json:target/BDDResults/cucumber.json",
+							   "junit:target/BDDResults/cucumber.xml",
 							   
 							   },
 					dryRun = false,
