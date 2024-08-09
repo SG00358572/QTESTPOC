@@ -33,5 +33,20 @@ public class StepDefs {
 		 
           	        
 	 }
+	 
+	 @Given("Scenario Step 1")
+	 public void Scenario_Step1()  {		 
+		 System.out.println("Inside scenario step 1...");             	        
+	 }
+	 
+	 @And("Scenario Step 2")
+	 public void Scenario_Step2()  {		 
+		 System.out.println("Inside scenario step 2...");             	        
+	 }
+	 
+	 @And("Scenario Step 3")
+	 public void Scenario_Step3()  {		 
+		 System.out.println("Inside scenario step 3...");             	        
+	 }
 	
 }
